@@ -1,0 +1,361 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Projekt LiKings</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/custom.css">
+		<link rel="stylesheet" href="dist/theme/mozilla-devrel-light.css">
+		<!--YE= mozilla-devrel-light, mozilla-devrel-dark -->
+		<!--ye= league, moon, solarized -->
+		<!--ne= blood, night, serif, sky -->
+		<!--?e= beige, black, simple, white -->
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown>
+					<textarea data-template>
+						<section data-background-image="./images/a4_lila_pastell_background5.jpg" data-background-size="100% 100%">
+							<h1>Website zur Darstellung des Essverhaltens einer Person</h1>
+						</section>
+					  	<section>
+							<h3>Oder Auch: Webanwendung zur Visualisierung der verschiedenen Vorlieben von unterschiedlichen Personen</h3>
+							<h5>Ein LF12a Projekt von Fee-Zara Zotter</h5>
+							<h5>01.12.2022</h5>
+						</section>
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						<h2>Umfeld</h2>
+						<Section>
+							<h1>Wer ist der Auftraggeber?</h1>
+						</Section>
+						<section>
+							<h3>LF12a</h3>
+							<p class="fragment">In der Anwendungsentwicklung einen Kundenauftrag vollständig durchzuführen und bewerten.</p>
+							<p class="fragment">Planung</p>
+							<p class="fragment">Entscheiden</p>
+							<p class="fragment">Implementieren</p>
+							<p class="fragment">Bewerten</p>
+							<p class="fragment">Reflektieren</p>
+							<p class="fragment">\\ Modell der vollständigen Handlung //</p>
+							<img class="fragment" src="./images/modell.jpg" style="position: absolute; z-index: 1; left: 15%; top: 25%; width: 70%; height: 80%;">
+						</section>
+						<section>
+							<h3>Annedore-Leber-Oberschule</h3>
+							<img src="./images/albbw.jpg" alt="boredom png" height="40%" width="40%"><br>
+						</section>
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						<h2>Motivation</h2>
+						<Section>
+							<h1>Warum habe ich nicht abgebrochen?</h1>
+						</Section>
+						<section>
+							<h3>Selektive Essstörung</h3>
+							<img src="./images/ekel.webp" alt="ekel webp" height="40%" width="40%"><br>
+						</section>
+						<section>
+							<h3>Wiederholen von gleichen Informationen</h3>
+							<img src="./images/boredom.png" alt="boredom png" height="40%" width="40%"><br>
+						</section>
+						<section>
+							<h3>Die Qualität von Pommes LF12a Unterricht</h3>
+							<img src="./images/pommes.jpg" alt="der Pommesstand" height="40%" width="40%"><br>
+							<span class="fragment">Pommes sind wirklich gut</span>
+						</section>
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						<h2>Ziel mit Abrenzung</h2>
+						<Section>
+							<h1>Was will ich überhaupt?</h1>
+						</Section>
+						<section>
+							<h3>Ziele</h3>
+							<p>
+								<span class="fragment">*Vorlieben visuell Darstellen*</span>
+							</p>
+							<p>
+								<span class="fragment">Leichtes verständlich machen von Vorlieben</span>
+							</p>
+							<p>
+								<span class="fragment">Beliebig viele Nutzer</span>
+							</p>
+							<p>
+								<span class="fragment">Beliebig viele Vorlieben</span>
+							</p>
+						</section>
+						<section>
+							<h3>Abgrenzung</h3>
+							<p>
+								<span class="fragment">Nutzer können keine Kategorien hinzufügen</span>
+							</p>
+							<p>
+								<span class="fragment">Die Daten werden nicht verkauft</span>
+							</p>
+							<p>
+								<span class="fragment">Die Daten werden nicht analysiert</span>
+							</p>
+						</section>
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						<h2>Planung</h2>
+						<Section>
+							<h1>Was brauche ich?</h1>
+						</Section>
+						<section>
+							<h3>Zeit</h3>
+							<table>
+								<tr class="fragment">
+									<td align="center">Anforderung</td>
+									<td align="center">03.09 bis 05.09.22</td>
+									<td align="center">3 Tage</span></td>
+								</tr>
+								<tr class="fragment">
+									<td align="center">Projektumsetzung</td>
+									<td align="center">06.09 bis 06.11.22</td>
+									<td align="center">31 Tage</td>
+								</tr>
+								<tr class="fragment">
+									<td align="center">Dokumentation</td>
+									<td align="center">07.11 bis 11.11.22</td>
+									<td align="center">5 Tage</td>
+								</tr>
+							</table>
+						</section>
+						<section>
+							<h3>Nutzer</h3>
+							<p>
+								<span class="fragment">Auf Öffentlichen Daten zugreifen</span>
+							</p>
+							<p>
+								<span class="fragment">Account erstellen</span>
+							</p>
+							<p>
+								<span class="fragment">Veröffentlichen von Inhalten</span>
+							</p>
+							<p>
+								<span class="fragment">Nicht öffentlich sind Administratorrechte</span>
+							</p>
+						</section>
+						<section>
+							<h3>Seiten</h3>
+							<p>
+								<span class="fragment">Startseite</span>
+							</p>
+							<p>
+								<span class="fragment">Kategorien-Seite</span>
+							</p>
+							<p>
+								<span class="fragment">Präferenz-Seite</span>
+							</p>
+							<p>
+								<span class="fragment">Registrierungs-Seite</span>
+							</p>
+							<p>
+								<span class="fragment">Login-Seite</span>
+							</p>
+							<p>
+								<span class="fragment">User-Seite</span>
+							</p>
+							<p>
+								<span class="fragment">Administrator-Seite</span>
+							</p>
+						</section>
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						<h2>Implementierung</h2>
+						<Section>
+							<h1>Was habe ich bisher gemacht?</h1>
+						</Section>
+						<section>
+							<h3>Überblick</h3>
+							<p>
+								<span class="fragment">Hauptseiten</span>
+							</p>
+							<p>
+								<span class="fragment">Konfigurationsseiten</span>
+							</p>
+							<p>
+								<span class="fragment">Server</span>
+							</p>
+							<p>
+								<span class="fragment">Code</span>
+							</p>
+						</section>
+						<section>
+							<h3>Startseite</h3>
+							<img src="./images/Startseite.png" alt="Startseite_IMG">
+						</section>
+						<section>
+							<h3>Kategorien-Seite</h3>
+							<img src="./images/Kategorie.png" alt="Startseite_IMG">
+						</section>
+						<section>
+							<h3>Präferenz-Seite</h3>
+							<img src="./images/Präferenz.png" alt="Startseite_IMG">
+						</section>
+						<section>
+							<h3>Regristrierungs-Seite</h3>
+							<img src="./images/Regristrierumg.PNG" alt="Startseite_IMG">
+						</section>
+						<section>
+							<h3>Login-Seite</h3>
+							<img src="./images/Login.PNG" alt="Startseite_IMG">
+						</section>
+						<section>
+							<h3>User-Seite</h3>
+							<img src="./images/UserPage.PNG" alt="Startseite_IMG">
+						</section>
+						<section>
+							<h3>Datenbank</h3>
+							<img src="./images/Datenbank.png" alt="Startseite_IMG">
+						</section>
+						<section>
+							<h3>Routen</h3>
+							<img src="./images/code1.png" alt="Startseite_IMG">
+						</section>
+						<section>
+							<h3>HTML</h3>
+							<img src="./images/codeHTML.png" alt="Startseite_IMG" width="70%">
+						</section>
+						<section>
+							<h3>DML</h3>
+							<img src="./images/codeDML.png" alt="Startseite_IMG" width="80%">
+						</section>
+						<section>
+							<h3>DB</h3>
+							<img src="./images/codeDB.png" alt="Startseite_IMG" width="50%">
+						</section>
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						<h2>Aktuell</h2>
+						<section><h1>Was funzt denn da?</h1></section>
+						<section>
+							<h3>Frontend</h3>
+							<p>
+								<span class="fragment">Startseite<br>Kategorien-Seite<br>Präferenz-Seite<br>Regristrierungs-Seite<br>Login-Seite<br>Shortcuts</span>
+							</p>
+						</section>
+						<section>
+							<span class="fragment">..&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+							<h3>Backend</h3>
+							<p>
+								<span class="fragment">Datenbank<br>Produktschlüssel-Management-System</span>
+							</p>
+						</section>
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						<h2>Ausblick</h2>
+						<section><h1>Was funzt bald da?</h1></section>
+						<section>
+							<h3>Frontend</h3>
+							<p>
+								<span class="fragment">Userdaten löschen<br>Userdaten hinzufügen<br>Administrator kann Kategorien verwalten<br>Angenehmes Administrator-Portal<br>Normale User-Seite</span>
+							</p>
+						</section>
+						<section>
+							<span class="fragment">..&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+							<h3>Backend</h3>
+							<p>
+								<span class="fragment">Tabellen als JSON statt als HTML Elemente senden<br></span>
+							</p>
+						</section>
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						<h2>Fazit</h2>
+						<section>
+							<h1>Habe ich überhaupt etwas gelernt?</h1>
+						</section>
+						<section>
+							<table>
+								<tr>
+									<th align="center">Unwissenheit</th>
+								</tr>
+								<tr class="fragment">
+									<td align="center">Ungeplante Vorgehensweise</td>
+								</tr>
+								<tr class="fragment">
+									<td align="center">System mehrfach überarbeitet</td>
+								</tr>
+								<tr class="fragment">
+									<td align="center">Zu viel Zeit verschwendet</td>
+								</tr>
+								<tr class="fragment">
+									<td align="center">Noch nicht fertig durch bereits genanntes</td>
+								</tr>
+							</table>
+							<br>
+							<table>
+								<tr>
+									<th align="center">Gute Erfahrung</th>
+								</tr>
+								<tr class="fragment">
+									<td align="center">Sehr lehrreich</td>
+								</tr>
+								<tr class="fragment">
+									<td align="center">Geschützter Raum für Projekte</td>
+								</tr>
+							</table>
+							<span class="fragment">aka LF12a</span>
+						</section>
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						<section>
+							<h1>Ende</h1>
+							<h4>Wann sind wir endlich da?</h4>
+						</section>
+						<section data-background-image="./images/Ende.png" data-background-size="100% 100%"></section>
+					</textarea>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				slideNumber: true,
+				loop: true,
+				mouseWheel: false,
+				transition: 'convex', // none/fade/slide/convex/concave/zoom
+				transitionSpeed: 'slow', // default/fast/slow
+				shuffle: false,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
